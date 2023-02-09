@@ -5,8 +5,1028 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="section-wrapper">
+            <div class="header__section-top">
+                <div class="container header__container-top flex">
+                    <div class="header__logo">
+                        <img src="./img/header/logo.svg" alt="Логотип компании Вивэйв">
+                    </div>
+                    <nav class="header__nav header__nav-top">
+                        <ul class="nav__list nav__list-top list-reset flex">
+                            <li class="nav__item nav__item-top">
+                                <a href="#podcast" class="item__link-top">
+                                    Подкасты
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-top">
+                                <a href="#broadcast" class="item__link-top">
+                                    Передачи
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-top">
+                                <a href="" class="item__link-top">
+                                    Гости
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-top">
+                                <a href="" class="item__link-top">
+                                    Плейлисты
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-top">
+                                <a href="" class="item__link-top">
+                                    О нас
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-manager__box-top flex">
+                        <button class="header__button-search btn-reset">
+                            <img src="./img/header/search-icon.svg" alt="Поиск">
+                        </button>
+                        <button class="header__button-entr btn-reset">
+                            Вход
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header__section-bottom">
+                <div class="container header__container-bottom flex">
+                    <nav class="header__nav header__nav-bottom">
+                        <ul class="nav__list nav__list-bottom list-reset flex">
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Новости
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Блоги
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Топы
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Опросы
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Рейтинги
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item-bottom">
+                                <a href="" class="item__link-bottom">
+                                    Реклама
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-manager__box-bottom mng-btm flex">
+                        <div class="manager__box-wrapper flex">
+                            <button class="manager__box-button-play btn-reset">
+                                <img src="./img/header/play-icon.svg" alt="Воспроизвести подкаст">
+                            </button>
+                            <div class="mng-btm__desc">
+                                <div class="mng-btm-when-playing">
+                                    Ранее в эфире
+                                </div>
+                                <div class="mng-btm-title-playing">
+                                    «Музыка»
+                                </div>
+                            </div>
+                        </div>
+                        <div class="manager__box-wrapper flex">
+                            <button class="manager__box-button-play btn-reset">
+                                <img src="./img/header/play-icon.svg" alt="Воспроизвести подкаст">
+                            </button>
+                            <div class="mng-btm__desc">
+                                <div class="mng-btm-when-playing">
+                                    Сейчас в эфире
+                                </div>
+                                <div class="mng-btm-title-playing">
+                                    «Как так?»
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="age-restrictions__wrapper">
+                        <img src="./img/header/age-rating.svg" alt="Возрастное ограничение 12+">
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="section-wrapper hero__section">
+                <div class="container hero__container">
+                    <h1 class="title hero__title">
+                        <strong>Радио</strong> <span>W-Wawe</span>
+                    </h1>
+                    <p class="subtitle hero__subtitle">
+                        Привет, на&nbsp;связи W-Wawe! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
+                    </p>
+                    <button class="hero__button-listen btn-reset">
+                        Слушать эфир
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="podcast">
+            <div class="section-wrapper podcast__section">
+                <div id="podcast" class="container podcast__container">
+                    <h2 class="title podcast__title">
+                        Подкасты
+                    </h2>
+                    <ul class="podcast__list list-reset flex">
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/europe.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            15:43
+                                        </p>
+                                        <p class="podcast__name">
+                                            Европа. XIX век
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        258
+                                    </span>
+                                    <span class="podcast__like">
+                                        104
+                                    </span>
+                                    <span class="podcast__share">
+                                        68
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                14 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/music.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            5:32
+                                        </p>
+                                        <p class="podcast__name">
+                                            О музыке
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        207
+                                    </span>
+                                    <span class="podcast__like">
+                                        34
+                                    </span>
+                                    <span class="podcast__share">
+                                        18
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                11 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/people.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            8:54
+                                        </p>
+                                        <p class="podcast__name">
+                                            Люди сегодня
+                                        </p>
+                                        <p class="podcast__author">
+                                            Анна Васильева
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        104
+                                    </span>
+                                    <span class="podcast__like">
+                                        54
+                                    </span>
+                                    <span class="podcast__share">
+                                        42
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                8 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/africa.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            9:04
+                                        </p>
+                                        <p class="podcast__name">
+                                            Хэллоу, Африка!
+                                        </p>
+                                        <p class="podcast__author">
+                                            Пётр Дмитриевский
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        87
+                                    </span>
+                                    <span class="podcast__like">
+                                        54
+                                    </span>
+                                    <span class="podcast__share">
+                                        7
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                5 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/about-all.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            7:03
+                                        </p>
+                                        <p class="podcast__name">
+                                            Обо всём
+                                        </p>
+                                        <p class="podcast__author">
+                                            Пётр Дмитриевский
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        64
+                                    </span>
+                                    <span class="podcast__like">
+                                        30
+                                    </span>
+                                    <span class="podcast__share">
+                                        80
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                2 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/colors.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            9:15
+                                        </p>
+                                        <p class="podcast__name">
+                                            Физика цвета
+                                        </p>
+                                        <p class="podcast__author">
+                                            Татьяна Флеганова
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        58
+                                    </span>
+                                    <span class="podcast__like">
+                                        29
+                                    </span>
+                                    <span class="podcast__share">
+                                        14
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                28 мая
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/sound.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            16:04
+                                        </p>
+                                        <p class="podcast__name">
+                                            Источник звука
+                                        </p>
+                                        <p class="podcast__author">
+                                            Пётр Дмитриевский
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        55
+                                    </span>
+                                    <span class="podcast__like">
+                                        20
+                                    </span>
+                                    <span class="podcast__share">
+                                        12
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                22 мая
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/rules.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            6:55
+                                        </p>
+                                        <p class="podcast__name">
+                                            Правила этикета
+                                        </p>
+                                        <p class="podcast__author">
+                                            Татьяна Флеганова
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        24
+                                    </span>
+                                    <span class="podcast__like">
+                                        54
+                                    </span>
+                                    <span class="podcast__share">
+                                        42
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                18 мая
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/europe.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            15:43
+                                        </p>
+                                        <p class="podcast__name">
+                                            Европа. XIX век
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        258
+                                    </span>
+                                    <span class="podcast__like">
+                                        104
+                                    </span>
+                                    <span class="podcast__share">
+                                        68
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                14 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/europe.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            15:43
+                                        </p>
+                                        <p class="podcast__name">
+                                            Европа. XIX век
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        258
+                                    </span>
+                                    <span class="podcast__like">
+                                        104
+                                    </span>
+                                    <span class="podcast__share">
+                                        68
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                14 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/europe.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            15:43
+                                        </p>
+                                        <p class="podcast__name">
+                                            Европа. XIX век
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        258
+                                    </span>
+                                    <span class="podcast__like">
+                                        104
+                                    </span>
+                                    <span class="podcast__share">
+                                        68
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                14 июня
+                            </span>
+                        </li>
+                        <li class="podcast__item flex">
+                            <div class="podcast__img">
+                                <picture>
+                                    <img src="./img/podcast/europe.jpg" alt="Европейский пейзаж">
+                                </picture>
+                            </div>
+                            <div class="podcast__info">
+                                <div class="podcast__section-top flex">
+                                    <div class="section-top__box-left">
+                                        <p class="podcast__time">
+                                            15:43
+                                        </p>
+                                        <p class="podcast__name">
+                                            Европа. XIX век
+                                        </p>
+                                        <p class="podcast__author">
+                                            Дмитрий Гутенберг
+                                        </p>
+                                    </div>
+                                    <div class="section-top__box-right">
+                                        <button class="podcast__btn-play btn-reset">
+                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="podcast__section-bottom">
+                                    <span class="podcast__play">
+                                        258
+                                    </span>
+                                    <span class="podcast__like">
+                                        104
+                                    </span>
+                                    <span class="podcast__share">
+                                        68
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="podcast__date">
+                                14 июня
+                            </span>
+                        </li>
+                    </ul>
+                    <button id="loadMore" class="podcast__button btn-reset">
+                        Ещё подкасты
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="broadcast">
+            <div class="section-wrapper broadcast__section">
+                <div id="broadcast" class="container broadcast__container flex">
+                    <div class="broadcast__container-left flex">
+                        <div class="brdcs-left__top">
+                            <h2 class="title broadcast__title">
+                                Передачи
+                            </h2>
+                            <p class="broadcast__author">
+                                Автор:
+                            </p>
+                            <form action="" method="post">
+                                <select name="chooseAuthor" id="chooseAuthor" class="broadcast__select">
+                                    <option value="authorDG" class="select__item">Дмитрий Гутенберг</option>
+                                    <option value="authorTF" class="select__item">Татьяна Флеганова</option>
+                                    <option value="authorAV" class="select__item">Анна Васильева</option>
+                                    <option value="authorPD" class="select__item">Пётр Дмитриевский</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="brdcs-left__bottom">
+                                <button class="brdcs__button-archive btn-reset">
+                                    Архив
+                                </button>
+                                <p class="brdcst__desc-archive">
+                                    В&nbsp;архив попадают все передачи, которые вы&nbsp;пропустили! Enjoy:)
+                                </p>
+                        </div>
+                    </div>
+                    <div class="broadcast__container-right">
+                        <ul class="broadcast__list list-reset flex">
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/people.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        О людях и книгах
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        Анонсируется отдельно
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/grafomany.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        Графомания td
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        По понедельникам в 10:00
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/rom.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        Не Рим, не Троя
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        По вторникам в 12:00
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/mind.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        Эрудит
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        По пятницам в 17:00
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/era.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        Тонкости эпох
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        По субботам в 10:00
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="broadcast__item">
+                                <picture>
+                                    <img src="./img/broadcast/thought.jpg" alt="" class="broadcast__img">
+                                </picture>
+                                <div class="broadcast__info">
+                                    <h3 class="broadcast__name">
+                                        Живые мысли
+                                    </h3>
+                                    <p class="broadcast__time">
+                                        По воскресеньям в 15:30
+                                    </p>
+                                    <a href="" class="broadcast__link-more">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="guest">
+            <div class="section-wrapper guest__section">
+                <div class="container guest__container">
+                    <h2 class="title guest__title">
+                        Гости
+                    </h2>
+                    <p class="guest__desc-top">
+                        У нас бывают:
+                    </p>
+                    <p class="guest__desc-bottom">
+                        Блогеры, арт-критики и&nbsp;деятели искусства, музыканты, молодые учёные и&nbsp;люди науки, историки, филологи и&nbsp;много других интересных гостей!
+                    </p>
+                    <div class="accordion-tabs__container flex">
+                        <div class="accordion-container">
+                            <div class="ac">
+                              <h2 class="ac-header">
+                                <button type="button" class="ac-trigger">Блогеры</button>
+                              </h2>
+                              <div class="ac-panel">
+                                <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="1">Сергей Денисов</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="2">Евгений Войновский</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="3">Олег Свиридовский</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="4">Денис Тельман</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="5">Матвей Мечников</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="6">Ольга Мартынова</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="7">Владислав Кауперс</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="8">Юрий Горин</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="9">Константин Прусино</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="10">Дмитрий Михалок</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="11">Михаил Пожитников</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="12">Максим Сергеев</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="13">Иван Калитников</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="14">Пётр Пиотровский</button></td>
+                                            <td class="tabs-nav__item"><button class="tabs-nav__btn btn-reset" data-path="15">Георгий Полуян</button></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="ac">
+                              <h2 class="ac-header">
+                                <button type="button" class="ac-trigger">Арт-критики</button>
+                              </h2>
+                              <div class="ac-panel">
+                                <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="ac">
+                              <h2 class="ac-header">
+                                <button type="button" class="ac-trigger">Художники</button>
+                              </h2>
+                              <div class="ac-panel">
+                                <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="ac">
+                                <h2 class="ac-header">
+                                  <button type="button" class="ac-trigger">Люди науки</button>
+                                </h2>
+                                <div class="ac-panel">
+                                  <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="ac">
+                                <h2 class="ac-header">
+                                  <button type="button" class="ac-trigger">Историки</button>
+                                </h2>
+                                <div class="ac-panel">
+                                  <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="ac">
+                                <h2 class="ac-header">
+                                  <button type="button" class="ac-trigger">Филологи</button>
+                                </h2>
+                                <div class="ac-panel">
+                                  <div class="ac-text">
+                                    <table>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__item tabs__item--active">
+                                <picture>
+                                    <img src="./img/guest/PP.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="tabs__item" data-target="6">
+                                <picture>
+                                    <img src="./img/guest/olga-guest.jpg" alt="">
+                                </picture>
+                                <div class="tabs__item-links flex">
+                                    <img src="./img/guest/olga-ins.svg" alt="" class="tabs__item-link">
+                                    <img src="./img/guest/olga-facebook.svg" alt="" class="tabs__item-link">
+                                    <img src="./img/guest/olga-tw.svg" alt="" class="tabs__item-link">
+                                </div>
+                                <p class="tabs__item-name">
+                                    Ольга Мартынова
+                                </p>
+                                <p class="tabs__item-about">
+                                    Российский искусствовед, арт-критик, куратор выставок, дизайнер, кандидат культурологии. Арт-критик газеты &laquo;Коммерсантъ&raquo;. Ведёт активную блогерскую деятельность как куратор музея &laquo;Гараж&raquo;, коим является с&nbsp;2016&nbsp;года.
+                                </p>
+                                <button class="tabs__item-btn btn-reset">
+                                    Эфиры с&nbsp;гостем
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="playlist">
+            <div class="section-wrapper playlist__section">
+                <div class="container playlist__container">
+                    <h2 class="title playlist__title">
+                        Плейлисты
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
+    <script src="./js/index-script.js"></script>
 </body>
 </html>
