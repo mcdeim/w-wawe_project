@@ -113,4 +113,43 @@ closePopupBtn.addEventListener('click',
     function () {
         enterPopup.classList.remove('header__popup-entr--active');
         document.body.classList.remove('body__popup--active');
-    })
+})
+
+// MANAGE BUTTON PLAY / PAUSE
+let playBtn1 = document.querySelector('.manager__box-button-1-play--active');
+let pauseBtn1 = document.querySelector('.manager__box-button-1-pause--active');
+let playBtn2 = document.querySelector('.manager__box-button-2-play--active');
+let pauseBtn2 = document.querySelector('.manager__box-button-2-pause--active');
+
+playBtn1.addEventListener('click', 
+    
+    function () {
+        playBtn1.classList.add('manager__box-button-1-play--deactive');
+        pauseBtn1.classList.remove('manager__box-button-1-pause--deactive');
+        pauseBtn2.classList.add('manager__box-button-2-pause--deactive');
+        playBtn2.classList.remove('manager__box-button-2-play--deactive');
+});
+
+pauseBtn1.addEventListener('click', 
+    
+function () {
+        pauseBtn1.classList.add('manager__box-button-1-pause--deactive');
+        playBtn1.classList.remove('manager__box-button-1-play--deactive');
+});
+
+
+playBtn2.addEventListener('click', 
+    
+    function () {
+        playBtn2.classList.add('manager__box-button-2-play--deactive');
+        pauseBtn2.classList.remove('manager__box-button-2-pause--deactive');
+        pauseBtn1.classList.add('manager__box-button-1-pause--deactive');
+        playBtn1.classList.remove('manager__box-button-1-play--deactive');
+});
+
+pauseBtn2.addEventListener('click', 
+    
+function () {
+        pauseBtn2.classList.add('manager__box-button-2-pause--deactive');
+        playBtn2.classList.remove('manager__box-button-2-play--deactive');
+});

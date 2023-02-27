@@ -102,12 +102,21 @@
                     </nav>
                     <div class="header-manager__box-bottom mng-btm flex">
                         <div class="manager__box-wrapper flex">
-                            <button class="manager__box-button-play btn-reset">
-                                <img src="./img/header/play-icon.svg" alt="Воспроизвести подкаст">
+                            <button class="manager__box-button-1-play--active btn-reset">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0ZM8 14.5V5.5L14 10L8 14.5Z"/>
+                                </svg>                                    
+                            </button>
+                            <button class="manager__box-button-1-pause--active manager__box-button-1-pause--deactive btn-reset">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0Z" fill="#A1A6B4"/>
+                                    <rect x="7" y="6" width="2" height="8" rx="1" fill="white"/>
+                                    <rect x="11" y="6" width="2" height="8" rx="1" fill="white"/>
+                                </svg>                                                         
                             </button>
                             <div class="mng-btm__desc">
                                 <div class="mng-btm-when-playing">
-                                    Ранее в эфире
+                                    Ранее в эфире
                                 </div>
                                 <div class="mng-btm-title-playing">
                                     «Музыка»
@@ -115,15 +124,24 @@
                             </div>
                         </div>
                         <div class="manager__box-wrapper flex">
-                            <button class="manager__box-button-play btn-reset">
-                                <img src="./img/header/play-icon.svg" alt="Воспроизвести подкаст">
+                            <button class="manager__box-button-2-play--active btn-reset">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0ZM8 14.5V5.5L14 10L8 14.5Z"/>
+                                </svg>
+                            </button>
+                            <button class="manager__box-button-2-pause--active manager__box-button-2-pause--deactive btn-reset">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0Z" fill="#A1A6B4"/>
+                                    <rect x="7" y="6" width="2" height="8" rx="1" fill="white"/>
+                                    <rect x="11" y="6" width="2" height="8" rx="1" fill="white"/>
+                                </svg>                                                         
                             </button>
                             <div class="mng-btm__desc">
                                 <div class="mng-btm-when-playing">
-                                    Сейчас в эфире
+                                    Сейчас в эфире
                                 </div>
                                 <div class="mng-btm-title-playing">
-                                    «Как так?»
+                                    «Как так?»
                                 </div>
                             </div>
                         </div>
@@ -196,10 +214,10 @@
             <div class="section-wrapper hero__section">
                 <div class="container hero__container">
                     <h1 class="title hero__title">
-                        <strong>Радио</strong> <span>W-Wawe</span>
+                        <strong>Радио</strong> <span>W-Wave</span>
                     </h1>
                     <p class="subtitle hero__subtitle">
-                        Привет, на&nbsp;связи W-Wawe! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
+                        Привет, на&nbsp;связи W-Wave! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
                     </p>
                     <button class="hero__button-listen btn-reset">
                         Слушать эфир
@@ -235,7 +253,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -276,7 +297,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -317,7 +341,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -358,7 +385,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -399,7 +429,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -440,7 +473,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -481,7 +517,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -522,7 +561,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -563,7 +605,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -604,7 +649,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -645,7 +693,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -686,7 +737,10 @@
                                     </div>
                                     <div class="section-top__box-right">
                                         <button class="podcast__btn-play btn-reset">
-                                            <img src="./img/podcast/play-button.svg" alt="Запуск подкаста">
+                                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="24" cy="24" r="20" stroke-width="2"/>
+                                                <path d="M21.6924 31.7965L31.5716 24.7996C32.1428 24.3998 32.1428 23.6002 31.5716 23.2004L21.6924 16.2035C20.9943 15.7037 20 16.1835 20 17.0031V30.9969C20 31.8165 20.9943 32.2963 21.6924 31.7965Z"/>
+                                            </svg>
                                         </button>
                                     </div>
                                 </div>
